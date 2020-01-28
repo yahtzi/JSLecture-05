@@ -8,10 +8,10 @@ console.log(myGreeting);
 const pi = 3.1415;
 
 //Attempt to re-assign "pi" to something else- what happens? You can't reassign a constant//
-pi = 1499; 
+// pi = 1499; 
 
 //Define a new variable "myNumber" and place a number of your choice inside of it//
 let myNumber = 5592057369;
 
 //Call the "min" function inside of the "Math" object on both "myNumber" and "pi" - what is the result?//
-console.log(Math.min("pi, myNumber"));
+console.log(Math.min(pi, myNumber));
